@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: "Azeret Mono", serif;
+}
+
+#top-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+}
+
+a> button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px gray solid;
+    font-family: "Azeret Mono", serif;
+}
+
+a> button:hover{
+    cursor: pointer;
+}
+
+
+#hero-section {
+    background: url(assets/Hero-bg.png);
+    height: 90vh;
+    border-top: dashed 3px rgba(128, 128, 128, 0.616);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: dashed 3px rgba(128, 128, 128, 0.616);
+}
+
+#hero-section> h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    width: 70vw;
+}
+#hero-section> p {
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(114, 114, 114);
+    width: 70vw;
+}
+
+#cnt-me-btn {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+
+#middle {
+    display: flex;
+    justify-content: center;
+
+}
+
+#mdl-main-div {
+    width: 70vw;
+    background-color: rgb(247, 247, 247);
+    margin: 100px 0px;
+    border-radius: 10px;
+
+}
+
+#mdl-main-div> div {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 50px;
+    padding: 50px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+}
+
+#mdl-main-div> div> p {
+    margin-top: 10px;
+    font-size: 10px;
+    width: 50vw;
+    color: rgb(114, 114, 114);
+}
+
+.learmore {
+    display: flex;
+    margin: 30px 50px;
+    padding: 50px;
+    border-radius: 8px;
+    background: rgb(247,247,247);
+background: linear-gradient(90deg, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 100%);
+    align-items: center;
+    justify-content: space-around;
+}
+
+.learmore>div>img {
+    width: 100%;
+}
+
+.learmore> div>p {
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 10px;
+    color: gray;
+}
+
+.learmore> div>button {
+    padding: 10px;
+    border: 1px gray solid;
+    font-family: "Azeret Mono", serif;
+}
+
+.learmore> div>button:hover {
+  cursor: pointer;
+}
+#mdl-div {
+    margin-left: 20%;
+}
+
+#inspiration {
+    width: 50vw;
+}
+
+
+#video-sec iframe {
+    border: 2px solid #ccc; /* Add border around the iframe */
+    border-radius: 10px; /* Optional: rounded corners for the iframe */
+    margin-bottom: 200px;
+}
+
+
+
+#main-ins {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#inspiration>p {
+    font-size: 14px;
+    color: gray;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
