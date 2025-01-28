@@ -137,7 +137,7 @@ background: linear-gradient(90deg, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 1
 #video-sec iframe {
     border: 2px solid #ccc; /* Add border around the iframe */
     border-radius: 10px; /* Optional: rounded corners for the iframe */
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 
@@ -156,3 +156,155 @@ background: linear-gradient(90deg, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 1
     margin-top: 20px;
     margin-bottom: 50px;
 }
+
+#tech-head {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-self: center;
+    align-items: center;
+}
+
+#tech-head> p {
+    font-size: 12px;
+    color: gray;
+    width: 60vw;
+    margin:  20px ;
+}
+
+#tech-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.common-card {
+    height: 250px;
+    width: 300px;
+    padding: 50px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.common-card> p {
+    margin:  10px 0px;
+    color: gray;
+}
+.common-card> h3 {
+    margin-top: 10px;
+}
+
+.common-card> button {
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    font-family: "Azeret Mono", serif;
+}
+.common-card> button:hover {
+    cursor: pointer;
+}
+
+#html {
+    background: rgba(255, 76, 30, 0.15);
+}
+
+#css {
+    background: rgba(0, 77, 232, 0.15);
+}
+
+#javascript {
+    background: rgba(255, 223, 0, 0.20);
+}
+
+#next {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#next> P {
+    color: gray;
+    margin: 10px 0px;
+    width: 50vw;
+    font-size: 14px;
+    margin-bottom: 100px;
+}
+
+#main-card-next {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main-tech-next {
+    display: flex;
+    height: 180px;
+    width: 60vw;
+    border: 2px gray solid;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+
+}
+
+.main-tech-next>div> img {
+    height: 80px;
+    margin-left: 20px;
+}
+
+.next-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    width: 70%;
+    justify-content: right;
+}
+
+.next-details> p {
+    color: gray;
+    margin-top: 10px;
+    font-size: 14px;
+}
+footer {
+    background-color: rgb(87, 87, 87);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .disclaimer p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .github-link a {
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  .github-link img {
+    width: 40px;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .github-link img:hover {
+    transform: scale(1.1);
+  }
+  
+  .github-link a:hover {
+    text-decoration: none;
+  }
+  
