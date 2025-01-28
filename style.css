@@ -1,310 +1,306 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-html, body {
-    height: 100%;
-    width: 100%;
-    box-sizing: border-box;
-    font-family: "Azeret Mono", serif;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: "Azeret Mono", serif;
 }
 
 #top-section {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
 }
 
-a> button {
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px gray solid;
-    font-family: "Azeret Mono", serif;
+a > button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px gray solid;
+  font-family: "Azeret Mono", serif;
 }
 
-a> button:hover{
-    cursor: pointer;
+a > button:hover {
+  cursor: pointer;
 }
-
 
 #hero-section {
-    background: url(assets/Hero-bg.png);
-    height: 90vh;
-    border-top: dashed 3px rgba(128, 128, 128, 0.616);
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-bottom: dashed 3px rgba(128, 128, 128, 0.616);
+  background: url(assets/Hero-bg.png);
+  height: 90vh;
+  border-top: dashed 3px rgba(128, 128, 128, 0.616);
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: dashed 3px rgba(128, 128, 128, 0.616);
 }
 
-#hero-section> h1 {
-    font-size: 50px;
-    text-align: center;
-    margin-top: 20px;
-    width: 70vw;
+#hero-section > h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 20px;
+  width: 70vw;
 }
-#hero-section> p {
-    text-align: center;
-    margin-top: 20px;
-    color: rgb(114, 114, 114);
-    width: 70vw;
+#hero-section > p {
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(114, 114, 114);
+  width: 70vw;
 }
 
 #cnt-me-btn {
-    background-color: black;
-    color: white;
-    margin-top: 20px;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
 }
 
 #middle {
-    display: flex;
-    justify-content: center;
-
+  display: flex;
+  justify-content: center;
 }
 
 #mdl-main-div {
-    width: 70vw;
-    background-color: rgb(247, 247, 247);
-    margin: 100px 0px;
-    border-radius: 10px;
-
+  width: 70vw;
+  background-color: rgb(247, 247, 247);
+  margin: 100px 0px;
+  border-radius: 10px;
 }
 
-#mdl-main-div> div {
-    display: flex;
-    flex-direction: column;
-    margin: 30px 50px;
-    padding: 50px;
-    border-radius: 8px;
-    background-color: rgb(255, 255, 255);
-    align-items: center;
-    text-align: center;
+#mdl-main-div > div {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 50px;
+  padding: 50px;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  text-align: center;
 }
 
-#mdl-main-div> div> p {
-    margin-top: 10px;
-    font-size: 10px;
-    width: 50vw;
-    color: rgb(114, 114, 114);
+#mdl-main-div > div > p {
+  margin-top: 10px;
+  font-size: 10px;
+  width: 50vw;
+  color: rgb(114, 114, 114);
 }
 
 .learmore {
-    display: flex;
-    margin: 30px 50px;
-    padding: 50px;
-    border-radius: 8px;
-    background: rgb(247,247,247);
-background: linear-gradient(90deg, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 100%);
-    align-items: center;
-    justify-content: space-around;
+  display: flex;
+  margin: 30px 50px;
+  padding: 50px;
+  border-radius: 8px;
+  background: rgb(247, 247, 247);
+  background: linear-gradient(
+    90deg,
+    rgba(247, 247, 247, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  align-items: center;
+  justify-content: space-around;
 }
 
-.learmore>div>img {
-    width: 100%;
+.learmore > div > img {
+  width: 100%;
 }
 
-.learmore> div>p {
-    width: 80%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 10px;
-    color: gray;
+.learmore > div > p {
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 10px;
+  color: gray;
 }
 
-.learmore> div>button {
-    padding: 10px;
-    border: 1px gray solid;
-    font-family: "Azeret Mono", serif;
+.learmore > div > button {
+  padding: 10px;
+  border: 1px gray solid;
+  font-family: "Azeret Mono", serif;
 }
 
-.learmore> div>button:hover {
+.learmore > div > button:hover {
   cursor: pointer;
 }
 #mdl-div {
-    margin-left: 20%;
+  margin-left: 20%;
 }
 
 #inspiration {
-    width: 50vw;
+  width: 50vw;
 }
-
 
 #video-sec iframe {
-    border: 2px solid #ccc; /* Add border around the iframe */
-    border-radius: 10px; /* Optional: rounded corners for the iframe */
-    margin-bottom: 100px;
+  border: 2px solid #ccc; /* Add border around the iframe */
+  border-radius: 10px; /* Optional: rounded corners for the iframe */
+  margin-bottom: 100px;
 }
-
-
 
 #main-ins {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-#inspiration>p {
-    font-size: 14px;
-    color: gray;
-    margin-top: 20px;
-    margin-bottom: 50px;
+#inspiration > p {
+  font-size: 14px;
+  color: gray;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 #tech-head {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-self: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-self: center;
+  align-items: center;
 }
 
-#tech-head> p {
-    font-size: 12px;
-    color: gray;
-    width: 60vw;
-    margin:  20px ;
+#tech-head > p {
+  font-size: 12px;
+  color: gray;
+  width: 60vw;
+  margin: 20px;
 }
 
 #tech-card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .common-card {
-    height: 250px;
-    width: 300px;
-    padding: 50px;
-    border-radius: 20px;
-    margin: 20px;
+  height: 250px;
+  width: 300px;
+  padding: 50px;
+  border-radius: 20px;
+  margin: 20px;
 }
 
-.common-card> p {
-    margin:  10px 0px;
-    color: gray;
+.common-card > p {
+  margin: 10px 0px;
+  color: gray;
 }
-.common-card> h3 {
-    margin-top: 10px;
+.common-card > h3 {
+  margin-top: 10px;
 }
 
-.common-card> button {
-    padding: 10px;
-    margin-top: 20px;
-    border: none;
-    font-family: "Azeret Mono", serif;
+.common-card > button {
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  font-family: "Azeret Mono", serif;
 }
-.common-card> button:hover {
-    cursor: pointer;
+.common-card > button:hover {
+  cursor: pointer;
 }
 
 #html {
-    background: rgba(255, 76, 30, 0.15);
+  background: rgba(255, 76, 30, 0.15);
 }
 
 #css {
-    background: rgba(0, 77, 232, 0.15);
+  background: rgba(0, 77, 232, 0.15);
 }
 
 #javascript {
-    background: rgba(255, 223, 0, 0.20);
+  background: rgba(255, 223, 0, 0.2);
 }
 
 #next {
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-    text-align: center;
-    margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
 }
 
-#next> P {
-    color: gray;
-    margin: 10px 0px;
-    width: 50vw;
-    font-size: 14px;
-    margin-bottom: 100px;
+#next > P {
+  color: gray;
+  margin: 10px 0px;
+  width: 50vw;
+  font-size: 14px;
+  margin-bottom: 100px;
 }
 
 #main-card-next {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .main-tech-next {
-    display: flex;
-    height: 180px;
-    width: 60vw;
-    border: 2px gray solid;
-    align-items: center;
-    padding: 20px;
-    margin-bottom: 50px;
-    border-radius: 20px;
-
+  display: flex;
+  height: 180px;
+  width: 60vw;
+  border: 2px gray solid;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 20px;
 }
 
-.main-tech-next>div> img {
-    height: 80px;
-    margin-left: 20px;
+.main-tech-next > div > img {
+  height: 80px;
+  margin-left: 20px;
 }
 
 .next-details {
-    display: flex;
-    flex-direction: column;
-    margin-left: 60px;
-    width: 70%;
-    justify-content: right;
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+  width: 70%;
+  justify-content: right;
 }
 
-.next-details> p {
-    color: gray;
-    margin-top: 10px;
-    font-size: 14px;
+.next-details > p {
+  color: gray;
+  margin-top: 10px;
+  font-size: 14px;
 }
 footer {
-    background-color: rgb(87, 87, 87);
-    color: rgb(0, 0, 0);
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .footer-container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .disclaimer p {
-    font-size: 14px;
-    line-height: 1.6;
-    margin-bottom: 10px;
-  }
-  
-  .github-link a {
-    display: inline-block;
-    margin: 20px;
-  }
-  
-  .github-link img {
-    width: 40px;
-    height: auto;
-    transition: transform 0.3s ease;
-  }
-  
-  .github-link img:hover {
-    transform: scale(1.1);
-  }
-  
-  .github-link a:hover {
-    text-decoration: none;
-  }
-  
+  background-color: rgb(87, 87, 87);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.disclaimer p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.github-link a {
+  display: inline-block;
+  margin: 20px;
+}
+
+.github-link img {
+  width: 40px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.github-link img:hover {
+  transform: scale(1.1);
+}
+
+.github-link a:hover {
+  text-decoration: none;
+}
